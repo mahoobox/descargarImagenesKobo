@@ -18,7 +18,8 @@ Primero, instala las dependencias necesarias usando `pip`. Abre tu terminal y ej
 pip install requests pandas python-dotenv
 ```
 
-##Configuración del Token de KoboToolbox
+### Configuración del Token de KoboToolbox
+
 Crea un archivo .env en el directorio raíz de tu proyecto.
 
 Agrega la siguiente línea al archivo .env, reemplazando tu_token_aquí con tu token de acceso de KoboToolbox:
@@ -27,7 +28,8 @@ Agrega la siguiente línea al archivo .env, reemplazando tu_token_aquí con tu t
 TOKEN_KOBO=tu_token_aquí
 ```
 
-##Uso
+### Uso
+
 Asegúrate de tener un archivo CSV con las columnas Tipo_Insecto, Tipo insecto detalle, y Url foto, que contenga los datos necesarios para la descarga.
 
 Modifica la variable file_path en el script para que apunte a la ubicación de tu archivo CSV.
@@ -40,7 +42,8 @@ python app.py
 
 El script descargará las imágenes en la carpeta especificada en la variable base_folder, creando subcarpetas según el Tipo insecto detalle.
 
-##Estructura del Proyecto
+### Estructura del Proyecto
+
 El proyecto incluye los siguientes archivos y carpetas:
 
 app.py: Script principal de la aplicación.
