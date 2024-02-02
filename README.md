@@ -10,7 +10,7 @@ Esta aplicación Python permite descargar automáticamente imágenes almacenadas
 
 ## Configuración
 
-### Instalación de Dependencias
+## Instalación de Dependencias
 
 Primero, instala las dependencias necesarias usando `pip`. Abre tu terminal y ejecuta:
 
@@ -18,7 +18,7 @@ Primero, instala las dependencias necesarias usando `pip`. Abre tu terminal y ej
 pip install requests pandas python-dotenv
 ```
 
-###Configuración del Token de KoboToolbox
+##Configuración del Token de KoboToolbox
 Crea un archivo .env en el directorio raíz de tu proyecto.
 
 Agrega la siguiente línea al archivo .env, reemplazando tu_token_aquí con tu token de acceso de KoboToolbox:
@@ -27,7 +27,7 @@ Agrega la siguiente línea al archivo .env, reemplazando tu_token_aquí con tu t
 TOKEN_KOBO=tu_token_aquí
 ```
 
-###Uso
+##Uso
 Asegúrate de tener un archivo CSV con las columnas Tipo_Insecto, Tipo insecto detalle, y Url foto, que contenga los datos necesarios para la descarga.
 
 Modifica la variable file_path en el script para que apunte a la ubicación de tu archivo CSV.
