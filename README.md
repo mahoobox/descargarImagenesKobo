@@ -65,10 +65,12 @@ archivos_descargar.csv: Archivo CSV de ejemplo con las URLs de las imágenes a d
 
 ```
 
-##Contribuir
+### Contribuir
+
 Si deseas contribuir a este proyecto, por favor haz fork del repositorio y envía tus pull requests.
 
-##Licencia
+### Licencia
+
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 ```
